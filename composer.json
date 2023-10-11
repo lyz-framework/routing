@@ -1,0 +1,23 @@
+{
+    "name": "routing/routing",
+    "type": "library",
+    "license": "MIT",
+    "author": {
+        "name": "lucasamazonas",
+        "email": "lucassilvaamazonas@gmail.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "LyzFramework\\Routing\\": "src/"
+        },
+        "files": [
+            "src/Helpers/helpers.php"
+        ]
+    },
+    "require": {
+        "php": "8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.3.0"
+    }
+}
